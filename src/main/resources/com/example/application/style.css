@@ -1,0 +1,66 @@
+/* Apply styles to the gallery grid */
+.gallery-grid {
+    -fx-padding: 20px;
+    -fx-background-color: #f0f0f0;
+}
+
+/* Style for the thumbnails */
+.thumbnail {
+    -fx-border-color: #ddd;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect on thumbnails */
+.thumbnail:hover {
+    -fx-border-color: #ff5733;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+/* Full Image View Pane */
+.full-image-pane {
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+    -fx-alignment: center;
+}
+
+/* Back Button Styling */
+.back-button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #333;
+    -fx-cursor: hand;
+}
+
+/* Back Button Hover Effect */
+.back-button:hover {
+    -fx-background-color: #ff5733;
+    -fx-text-fill: white;
+}
+
+/* Navigation Buttons (Previous & Next) */
+.nav-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #0056b3;
+    -fx-cursor: hand;
+}
+
+/* Hover effect for navigation buttons */
+.nav-button:hover {
+    -fx-background-color: #0056b3;
+    -fx-text-fill: white;
+}
+
+/* Disabled buttons */
+.nav-button:disabled {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #666666;
+    -fx-cursor: default;
+}
